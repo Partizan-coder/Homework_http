@@ -27,6 +27,6 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    yandex_disk_token = 'AgAAAABR3TikAADLW0vVbPP0UUvBiQsUR0RJ4Bk'
+    yandex_disk_token = ''
     uploader = YaUploader(yandex_disk_token)
     result = uploader.upload('C:\\Users\\evgeniy.lapin\\Desktop\\Upload_file_homework_http.txt')
